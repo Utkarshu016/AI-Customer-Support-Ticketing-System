@@ -1,38 +1,11 @@
-AI-Powered Customer Support Ticketing System
-Project Overview
+AI-Powered Customer Support Ticketing System (Salesforce)
 
-This project demonstrates a customer support ticketing system built on the Salesforce platform. The system is designed to manage customer support requests efficiently using Salesforce objects and AI capabilities. It centralizes customer information and support cases while assisting support agents with AI-generated responses.
+This project demonstrates the development of an AI-Powered Customer Support Ticketing System using the Salesforce platform. The system is designed to streamline customer support operations by automating case management, prioritization, and response generation using Salesforce automation tools and AI capabilities.
 
-Features
+The system uses standard Salesforce objects such as Account, Contact, and Case to manage customer information and support requests. When a customer issue is recorded as a case, automation flows automatically evaluate the issue type, assign case priority, and calculate the SLA Due Date to ensure that critical cases are handled within the defined service time.
 
-1.Customer and organization management using Account and Contact objects
+To further assist support agents, the system integrates AI Suggested Response using Prompt Builder and Agentforce, which generates professional responses based on case details such as Issue Type, Priority, and Customer Description. This reduces manual effort and helps agents resolve cases faster.
 
-2.Case management using the Salesforce Case object
+The project also includes record-triggered flows for automation, security configuration using profiles and permission sets, and reports for monitoring support performance and case status. Screenshots included in the repository demonstrate the system configuration, automation flows, prompt templates, and case resolution process.
 
-3.AI-generated suggested responses using Salesforce Prompt Builder
-
-4.Integration with Agentforce AI to assist support agents
-
-5.Reports and dashboards to monitor case activity
-
-6.Role-based access control using profiles and permission sets
-
-Technologies Used
-
-1.Salesforce Developer Org
-
-2.Salesforce Agentforce AI
-
-3.Prompt Builder
-
-4.Salesforce Flow
-
-5.Reports and Dashboards
-
-Screenshots
-
-The Screenshots folder contains images demonstrating the system setup and functionality, including case creation, AI-generated responses, Agentforce AI interaction, automation flows, and dashboards.
-
-Author
-
-Utkarsh Ukey
+Overall, this project showcases how Salesforce automation, AI assistance, and structured data modeling can improve the efficiency and scalability of customer support operations.
